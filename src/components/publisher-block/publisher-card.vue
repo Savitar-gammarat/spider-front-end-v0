@@ -6,12 +6,10 @@
 				<img src="" alt="">
 			</template>
 			<template slot="title">
-				<!--插槽插标题-->
+				{{item.sites}}
 			</template>
 		</publisher-header>
-		<publisher-data-wrapper>
-			<!--父向子传值-->
-		</publisher-data-wrapper>
+		<publisher-data-wrapper :dataList="item.list"></publisher-data-wrapper>
 	</div>
 </template>
 
@@ -21,6 +19,7 @@
 	export default {
 		name: "publisher-card",
 		components: {PublisherDataWrapper, PublisherHeader},
+		props:['item']
 	}
 </script>
 

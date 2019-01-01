@@ -1,13 +1,16 @@
 <template>
 	<div>
-		<span>publisher-data-wrapper</span>
 		<!--传值后进行数据遍历-->
+		<div  v-for="i in dataList" :key="i.id">
+			<span v-text="i.title"></span>
+		</div>
 	</div>
 </template>
 
 <script>
 	export default {
-		name: "publisher-data-wrapper"
+		name: "publisher-data-wrapper",
+		props:["dataList"]
 	}
 </script>
 
