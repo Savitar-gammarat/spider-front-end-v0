@@ -1,5 +1,7 @@
 <template>
-	<span v-text="copyRight" class="copy-right"></span>
+	<div class="copy-right">
+		<span v-text="copyRight"></span>
+	</div>
 </template>
 
 <script>
@@ -14,5 +16,8 @@
 </script>
 
 <style scoped>
-
+.copy-right{
+	margin: 60px auto 40px auto;
+	text-align: center;
+}
 </style>

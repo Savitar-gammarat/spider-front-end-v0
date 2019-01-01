@@ -4,9 +4,8 @@
 			<h3 class="md-title" style="flex: 1">
 				<logo></logo>Title
 			</h3>
-			<md-button>
-				<slide-menu></slide-menu>
-			</md-button>
+			<md-icon class="md-size-2x">view_headline</md-icon>
+			<!--<slide-menu></slide-menu>-->
 		</md-toolbar>
 	</div>
 </template>
