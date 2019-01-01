@@ -1,7 +1,13 @@
 <template>
 	<div>
-		<logo></logo>
-		<slide-menu></slide-menu>
+		<md-toolbar class="navigation md-transparent">
+			<h3 class="md-title" style="flex: 1">
+				<logo></logo>Title
+			</h3>
+			<md-button>
+				<slide-menu></slide-menu>
+			</md-button>
+		</md-toolbar>
 	</div>
 </template>
 
@@ -15,5 +21,8 @@
 </script>
 
 <style scoped>
-
+.navigation{
+	height: 150px;
+	box-shadow: none;
+}
 </style>
