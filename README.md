@@ -24,3 +24,38 @@ npm run test
 ```
 npm run lint
 ```
+
+
+# spider
+
+## the tree of the website
+	<header>
+	    <nav>
+	        <logo></logo>
+	        <slide-menu></slide-menu>
+	    </nav>
+	</header>
+	<article>
+	    <section>
+	        <header></header>
+	        <article></article>
+	    </section>
+	    ………………
+	</article>
+	<footer>
+	    <small></small>
+	</footer>
+## the tree of the website
+
+- front-page
+	- navigation
+		- logo
+		- slide-menu
+	- search-bar
+		- search-block
+		- search-options
+	- publisher-block
+		- publisher-header
+		- publisher-data-wrapper
+	- footer
+		
