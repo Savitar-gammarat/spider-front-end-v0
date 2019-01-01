@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<search-block></search-block>
-		<search-options></search-options>
+		<search-options ref="search"></search-options>
 	</div>
 </template>
 

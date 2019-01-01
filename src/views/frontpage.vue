@@ -18,7 +18,7 @@
 	import BottomBar from "@/components/common/bottom-bar";
 	export default {
 		name: "frontpage",
-		components: {BottomBar, PublisherBlock, SearchBar, Navigation}
+		components: {BottomBar, PublisherBlock, SearchBar, Navigation},
 	}
 </script>
 
