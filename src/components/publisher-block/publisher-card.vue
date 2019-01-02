@@ -6,10 +6,10 @@
 				<img src="" alt="">
 			</template>
 			<template slot="title">
-				{{item.sites}}
+				{{item.name}}
 			</template>
 		</publisher-header>
-		<publisher-data-wrapper :dataList="item.list" style="overflow: hidden"></publisher-data-wrapper>
+		<publisher-data-wrapper :dataList="item.all_news" style="overflow: hidden"></publisher-data-wrapper>
 	</div>
 </template>
 
