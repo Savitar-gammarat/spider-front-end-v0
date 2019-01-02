@@ -1,5 +1,6 @@
 <template>
 	<div>
+		<!--可参照Vue Material中Drawer-->
 		<md-toolbar class="navigation md-transparent">
 			<h3 class="md-title" style="flex: 1">
 				<logo></logo>Title

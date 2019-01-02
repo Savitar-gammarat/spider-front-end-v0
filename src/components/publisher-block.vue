@@ -1,6 +1,9 @@
 <template>
-	<div>
-		<publisher-card v-for="item in publishList" :item="item"></publisher-card>
+	<div class="md-layout">
+		<div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100 publisher-block"
+			v-for="item in publishList" :key="item.id">
+			<publisher-card :item="item"></publisher-card>
+		</div>
 	</div>
 </template>
 
@@ -28,6 +31,14 @@
 						{id:1, title:"还有三分钟就要睡觉了"},
 						{id:2, title:"结果并没有按时睡觉"},
 					]
+				},
+				{
+					id:3,
+					sites:"斗鱼",
+					list:[
+						{id:1, title:"早上起来奋斗"},
+						{id:2, title:"写代码是没有睡眠的"},
+					]
 				}
 			]
 			}
@@ -36,5 +47,8 @@
 </script>
 
 <style scoped>
-
+.publisher-block{
+	height: 400px;
+	padding: 8px;
+}
 </style>

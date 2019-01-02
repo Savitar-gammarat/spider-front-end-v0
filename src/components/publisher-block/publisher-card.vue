@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="publisher-card">
 		<publisher-header>
 			<template slot="logo">
 				<!--插槽插图片-->
@@ -24,5 +24,7 @@
 </script>
 
 <style scoped>
-
+.publisher-card{
+	border-radius: 5px;
+}
 </style>
