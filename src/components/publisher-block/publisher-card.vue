@@ -9,7 +9,7 @@
 				{{item.sites}}
 			</template>
 		</publisher-header>
-		<publisher-data-wrapper :dataList="item.list"></publisher-data-wrapper>
+		<publisher-data-wrapper :dataList="item.list" style="overflow: hidden"></publisher-data-wrapper>
 	</div>
 </template>
 
